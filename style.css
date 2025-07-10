@@ -1,0 +1,171 @@
+main {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+  font-family: courier, monospace;
+  background-color: whitesmoke;
+}
+
+/* STYLE TEXT */
+
+h1{
+  color: black;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+h3 {
+  color: black;
+  text-align: center;
+  padding-top: 0em;
+  padding-bottom: 0em;
+}
+
+#climateChangeQuestion {
+  text-align: justify;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+#about {
+  text-align: justify;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+#combatClimateChange {
+  text-align: justify;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+#moreInfo {
+  text-align: justify;
+}
+
+#moreInformation {
+  text-align: justify;
+}
+
+
+.learnMoreLinks {
+  text-align: justify;
+}
+
+a:link {
+  color: #50625d;
+}
+
+.subtitle {
+  text-align: center; 
+}
+
+.learn {
+  margin: 60px 0 20px;
+}
+
+#imageCredit {
+  text-align: left;
+  margin-top: 60px;
+  font-size: 10px;
+}
+
+/* STYLE IMAGES */
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-item {
+  flex-basis: 100%;
+  margin: 1%;
+}
+
+img {
+  width: 100%;
+}
+ .climate {
+  text-align: center;
+  max-height: 200px;
+  max-width: 200px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.impacted {
+  text-align: center;
+  max-height: 500px;
+  max-width: 500px;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+/* STYLE NAV BAR */
+
+ul {
+  list-style-type: none;
+  background: linear-gradient(to right, #B5D4E4, #B5E4E0); 
+  text-align: right;
+  overflow: hidden;
+  padding: 1em;
+  border-bottom: 3px solid white;
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  border-left: 3px solid white;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  text-declaration: none;
+  text-decoration: none;
+  color: #50625d;
+  padding: 1em;
+}
+
+li a:hover {
+  background-color: whitesmoke;
+}
+
+/* STYLE BUTTONS */
+.generateFact {
+  text-align: center;
+  background: linear-gradient(to right, #B5D4E4, #B5E4E0);
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 30px;
+  margin-right: calc(50% - 300px);
+  margin-left: calc(50% - 300px);
+  margin-bottom: 30px;
+  min-height: 250px;
+  min-width: 600px;  
+}
+
+#factButton {
+  background: whitesmoke; 
+  font-family: courier, monospace;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 30px;
+  margin-right: 35%;
+  margin-left: 35%;
+  margin-bottom: 30px;
+}
+
+/* ADD MORE! */
