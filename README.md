@@ -24,26 +24,30 @@ You can extend your project further by:
 
 ---
 
-## File Overview
-
-### ← README.md
-
-That's this file. This is the place to tell people more about what your website does and how you built it. 
+## File Overview 
 
 ### ← index.html
 
-HTML files are for content! Add your text, images, buttons, and more using HTML tags.
+Project homepage. Gives a brief introduction to climate change.
+
+### ← about.html
+
+States the purpose of the website.
+
+### ← takeAction.html
+
+Lists ways to take action against climate change and includes additional external links to learn more.
+
+### ← learnMore.html
+
+Features a random facto generator and additional external links to learn more about climate change.
 
 ### ← style.css
 
-CSS files add styling rules to your content like changing colors and fonts. 
+CSS file that styles font, color, etc. of webpage.  
 
 ### ← script.js
 
-JavaScript files add interactivity to your website using code. This is where you can listen for events, then take an action.
-
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project. You do not need to add anything to this folder unless you are working on the extensions. If you are adding an image, it is best to save it to your computer, then upload the file to the `assets` folder. The url of the image will be `assets/example.jpg`.
+JavaScript file that adds interactivity to the website.
 
 
